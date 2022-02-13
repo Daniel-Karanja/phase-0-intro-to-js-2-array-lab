@@ -4,9 +4,9 @@ const destructivelyAppendCat = (name) => cats.push(name);
 
 const destructivelyPrependCat = (name) => cats.unshift(name);
 
-const destructivelyRemoveLastCat = (name) => cats.pop();
+const destructivelyRemoveLastCat = () => cats.pop();
 
-const destructivelyRemoveFirstCat = (name) => cats.shift();
+const destructivelyRemoveFirstCat = () => cats.shift();
 
 const appendCat = (name) => [...cats, name];
 
